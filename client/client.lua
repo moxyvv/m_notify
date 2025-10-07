@@ -46,29 +46,6 @@ Citizen.CreateThread(function()
     print("^2[m_notify]^7 ready")
 end)
 
-RegisterCommand('notify', function(source, args)
-    local message = table.concat(args, ' ')
-    if message and message ~= '' then
-        ShowNotification(message, 'info', 5000, 'Info')
-    else
-        ShowNotification('Test notification!', 'success', 5000, 'Test')
-    end
-end, false)
-
-local testNotifs = {
-    {message = 'Success notification!', type = 'success', duration = 4000, title = 'Success'},
-    {message = 'Error notification!', type = 'error', duration = 4000, title = 'Error'},
-    {message = 'Warning notification!', type = 'warning', duration = 4000, title = 'Warning'},
-    {message = 'Info notification!', type = 'info', duration = 4000, title = 'Info'}
-}
-
-RegisterCommand('notify_styles', function()
-    for i, notif in ipairs(testNotifs) do
-        Citizen.Wait((i-1) * 500)
-        ShowNotification(notif.message, notif.type, notif.duration, notif.title)
-    end
-end, false)
-
 exports('ShowNotification', ShowNotification)
 exports('ShowNotifications', ShowNotifications)
 exports('ClearNotifications', ClearNotifications)
