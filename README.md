@@ -166,22 +166,7 @@ Config.Behavior = {
 - `warning` - Orange notification with warning triangle
 - `info` - Blue notification with info icon
 
-## 🛠️ Development
-
-### Building from Source
-
-```bash
-# Navigate to web directory
-cd web
-
-# Install dependencies
-npm install
-
-# Build for production
-npm run build
-```
-
-### Testing Commands
+## 🧪 Testing Commands
 
 The resource includes built-in test commands:
 
