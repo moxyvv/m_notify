@@ -1,5 +1,8 @@
 # m_notify - Clean Notification System for FiveM
 
+<img width="374" height="498" alt="0A545C50-F005-4D70-B3FD-C3DA098DEAC1" src="https://github.com/user-attachments/assets/65f1bd70-5596-4dc2-a6a3-298bd428908c" />
+
+
 A modern, lightweight notification system built with React and TypeScript for FiveM servers. Features beautiful animations, customizable positioning, sound effects, and a clean API.
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
