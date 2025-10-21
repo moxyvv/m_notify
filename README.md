@@ -138,18 +138,6 @@ Config.Sound = {
     },
     waveType = 'sine'
 }
-
--- Behavior
-Config.Behavior = {
-    defaultDuration = 5000,
-    autoRemove = true,
-    clickable = false,
-    queue = {
-        delay = 100,
-        maxSize = 10,
-        staggeredPositions = true,
-        staggerOffset = 8
-    }
 }
 ```
 
